@@ -1,8 +1,11 @@
-<div class="panel-body">
-  <%= form_tag cities_path, :method => 'get' do %>
-  <%= submit_tag "Submit"%>
-     <div class="form-group">
-       <%= text_field_tag :api_key %>
-     </div>
-  <% end %>
+<div class="text-center">
+
+<h2>Enter Nova Poshta api key</h2>
+
+<%= form_tag cities_path, method: 'get', class: "navbar-form " do %>
+<%= submit_tag "Submit", class: "btn btn-default" %>
+   <div class="form-group">
+     <%= text_field_tag :api_key %>
+   </div>
+<% end %>
 </div>
