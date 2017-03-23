@@ -1,10 +1,10 @@
-  <h1 class="text-center">Cities where Nova Poshta work</h1>
-  <table class="table table-striped">
-    <tr>
-      <th>City id</th>
-      <th>City name ru</th>
-      <th>City name</th>
-    </tr>
+<h1 class="text-center">Cities where Nova Poshta work</h1>
+<table class="table table-striped">
+  <tr>
+    <th>City id</th>
+    <th>City name ru</th>
+    <th>City name</th>
+  </tr>
     <% @cities[0]["data"].each do |city| %>
   <tr>
     <td><%=  city["CityID"] %></td>
@@ -12,6 +12,4 @@
     <td><%=  city["Description"] %></td>
   </tr>
   <% end %>
-  </table>
-
-<%= @cities%>
+</table>
