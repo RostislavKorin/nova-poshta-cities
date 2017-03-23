@@ -1,24 +1,26 @@
-# README
+Nova Poshta cities list
+============
+[![Build Status](https://travis-ci.org/RostislavKorin/nova-poshta-cities.svg?branch=master)](https://travis-ci.org/RostislavKorin/nova-poshta-cities)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+DESCRIPTION
+--------------------------------
+It  is a small application for displaying cities where NP works.
 
-Things you may want to cover:
+DEMO
+--------------------------------
+https://fathomless-lowlands-23080.herokuapp.com/
 
-* Ruby version
+INSTALLATION
+--------------------------------
 
-* System dependencies
+  bundle
 
-* Configuration
+RUN
+--------------------------------
 
-* Database creation
+  bundle exec rails s
 
-* Database initialization
+TEST
+--------------------------------
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+  bundle exec rspec
